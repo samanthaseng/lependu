@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cadre {
+    background-color: #D0EFF2;
+    border: #AAE5EA dashed 1px;
+    width: 60%;
+    height: 100vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#word-to-guess {
+    margin: 20px auto;
+    display: block;
+    width: 300px;
+}
+
+#btn-enter {
+    margin: auto;
+    display: block;
+}
